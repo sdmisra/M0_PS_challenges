@@ -23,3 +23,15 @@ for (i = 0; i < words.length; i++) {
         console.log(words[i])
     }
 }
+// Refactor / Revise : Turn it into a function, try it with new data!
+var words2 = ["tablesaw", "tunnel", "plane", "shoes", "socks", "service", "tuna",]
+
+function tCheck(array){
+    for (i = 0; i < array.length; i++) {
+    if (array[i].startsWith("t")) {
+        console.log(array[i])
+        }
+    }
+}
+
+tCheck(words2)
