@@ -24,3 +24,31 @@ for (var i = 0; i<names.length; i++) {
         console.log(names[i])
     }
 }
+
+// TO TURN INTO FUNCTION?: LOOK BACK AT PSEUDO! Generic == reusable.
+
+function checkFour(array) {
+    for (var i = 0; i<array.length; i++) {
+        if (array[i].length ===4) {
+            console.log(array[i])
+        }
+    }    
+}
+
+checkFour(names);
+
+// Refactor - Try it with a new set of data, and if it works, try to make a similar function that checks for a diff condition before printing it to console!
+
+var names2 = ["Tony", "Jeremy", "Earl", "Cletus", "Abraham", "Vivienne", "Bono",]
+
+checkFour(names2)
+
+function fourOrMore(array) { 
+    for (var i = 0; i<array.length; i++) {
+    if (array[i].length >= 4) {
+        console.log(array[i])
+        }
+    }   
+}
+fourOrMore(names)
+fourOrMore(names2)
