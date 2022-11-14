@@ -2,8 +2,8 @@
 
  // Overall goal - 
  // 1. Define a new array, populate it with multiple strings - some of which have exactly four characters and others that do not.
- // 2. Begin a 'for loop structure', initializing it at the beginning of the array and run it until it loops through each index position within the array, with each cycle progressing through the array by an increment of 1. 
- // 3. Create an if statement within the array that compares the length attribute of the value at the current index position within the array to the number 4. If the value is strictly equal to 4 (=== operator), use that boolean value to:
+ // 2. Begin a 'for loop structure', initializing it at the beginning of the array and run it until it loops through each index position within the array(find this end with the .length method), with each cycle progressing through the array by an increment of 1. 
+ // 3. Create an if statement within this for loop that compares the length attribute (use .length) of the value at the current index position within the array to the number 4. If the value is strictly equal to 4 (=== operator), use that boolean value to:
  // If true, print the string to the console.
  // If false, do nothing and continue looping through the statement until the array has been cycled through fully.
 
@@ -51,4 +51,5 @@ function fourOrMore(array) {
     }   
 }
 fourOrMore(names)
+
 fourOrMore(names2)
